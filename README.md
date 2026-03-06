@@ -1,11 +1,21 @@
-# Assignment 2: Data Quality Assessment & Preprocessing
+# 📱 Smartphone Usage & Productivity Analysis
 **Course:** ARTI406 - Machine Learning  
-**Student:** Omar Salman Alsubgh
+**Student:** Omar Salman Alsubgh  
+**University: IAU ** AI Major - Junior Year 
 
 ---
+## 📊 Dataset Description
+The dataset contains 50,000 entries tracking how smartphone habits influence productivity and well-being.
 
-## 📌 Project Overview
-This notebook contains a complete data preprocessing pipeline applied to the **Smartphone Usage and Productivity** dataset. The goal is to clean, transform, and reduce the data to prepare it for machine learning analysis.
+### **Data Dictionary**
+| Feature | Type | Description |
+| :--- | :--- | :--- |
+| **Daily_Phone_Hours** | Numerical | Total device usage per day. |
+| **Social_Media_Hours** | Numerical | Time spent on social platforms. |
+| **Work_Productivity** | Numerical | Score from 1-10. |
+| **App_Usage_Count** | Numerical | Number of apps opened daily. |
+| **Stress_Level** | Numerical | Reported stress from 1-10. |
+| **Occupation** | Categorical | Student, Professional, etc. |
 
 ## 🛠 Preprocessing Pipeline
 
